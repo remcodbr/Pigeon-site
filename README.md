@@ -12,5 +12,4 @@ Obviously, pigeons are always cool no matter what.
 --- 
 
 **So why is my pigeon waaaaaay cooler than Daniel's?**
-
-
+1. Because Daniel will never love pigeons the way I do
