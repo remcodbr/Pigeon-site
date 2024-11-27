@@ -1,0 +1,30 @@
+name: pigeon_counter
+
+on: 
+  workflow_dispatch: 
+
+jobs: 
+  count_pigeons:
+    runs on: ubuntu-latest
+
+    steps: 
+      - from random import randint
+
+number_of_pigeons = int(randint(1, 400)) # Generates and displays a random integer between 
+
+print(number_of_pigeons)
+
+print("There are now approximately",number_of_pigeons, "million pigeons on this planet!")
+
+new_number = int(randint(1, 400))
+
+print(new_number)
+
+if new_number > number_of_pigeons:
+    print("Pigeons went crazy on procreation, there are now", new_number,"million pigeons in this world!")
+    
+elif new_number < number_of_pigeons:
+    print("Pigeon population is collapsing, pigeon hunters taking over. There are now", new_number, "million pigeons in this wolrd!")
+    
+elif new_number == number_of_pigeons:
+    print("Pigeon population stabilizing, there are still", new_number, "million pigeons in this world.")
